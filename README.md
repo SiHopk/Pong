@@ -4,7 +4,7 @@ A simple Pong game made inside of GameMaker Studio 2. This game was made as a fi
 ## Objects
 Below will be listed each object, as well as a table containing each of its events and a description of what each event does.
 
-## Paddle
+### Paddle
 This object is the players paddle, its job is just to move up and down only when the player gives the input to do so.
 
 | Event | Description|
