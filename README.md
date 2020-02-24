@@ -41,9 +41,9 @@ This object keeps score for the players paddle
 ### Announcer
 This is an invisible object that greets the player
 
-| Event | Description |
+|Event|Description|
 |-------|-------|
-| Game Start | This event has the announcer greet and instruct the player |
+|Game Start|This event has the announcer greet and instruct the player|
 
 ### Ball
 This is the ball that bounces around the field
