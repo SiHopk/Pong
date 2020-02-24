@@ -66,7 +66,7 @@ This is the level the game will be taking place inside of.
 | Creation Code | This event simply tells the room that if the music for the game is not playing, then it should play the music on a loop for the player|
 
 ### Barrier
-Bounces the ball off of them, this object has no events
+This object bounces the ball off of them, the event for this is held by the ball not the barrier, so this object has no events
 
 ### MiddleLine
-This is a decorative object and as such it has no code.
+This is a decorative object, and as such it has no code.
