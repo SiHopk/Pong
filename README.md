@@ -14,4 +14,37 @@ This object is the players paddle, its job is just to move up and down only when
 | Key Down - Down| This event tells the paddle to move downwards when the user presses the down key |
 
 ### Enemy
-This 
+This is the enemy paddle it will simply follow the ball on the y axis.
+
+| Event | Description |
+|-------|-------|
+| Step | This event says that for evey frame the ball exists, this paddle will follow along the y axis |
+
+### Goal1
+This object keeps score for the enemy paddle
+
+| Event | Description |
+|-------|-------|
+| Creation | Initializes the enemy score|
+| Draw | Tells the object to draw its own sprite as well as the enemys score on the board|
+| Ball Collision | When the ball collides with the goal it increases the enemy score |
+
+### Goal2
+This object keeps score for the players paddle
+
+| Event | Description |
+|-------|-------|
+| Creation | Initializes the players score|
+| Draw | Tells the object to draw its own sprite as well as the players score on the board|
+| Ball Collision | When the ball collides with the goal it increases the players score |
+
+### Ball
+This is the ball that bounces around the field
+
+| Event | Description |
+
+
+### Barrier
+Bounces the ball off of them, this object has no events
+
+
