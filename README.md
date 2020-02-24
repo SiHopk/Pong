@@ -38,13 +38,28 @@ This object keeps score for the players paddle
 | Draw | Tells the object to draw its own sprite as well as the players score on the board|
 | Ball Collision | When the ball collides with the goal it increases the players score |
 
+### Announcer
+This is an invisible object that greets the player
+
+| Event | Description |
+|-------|-------|
+| Game Start | This event has the announcer greet and instruct the player |
+
 ### Ball
 This is the ball that bounces around the field
 
 | Event | Description |
-
+|-------|-------|
+| Key Pressed - Space | This event will reset the ball shoud it get stuck on anything |
+| Barrier Collision | This event tells the ball to bounce off the barriers and plays a sound for the collision |
+| Enemy Collision | This event tells the ball to bounce off enemy paddle and plays a sound for the collision |
+| Paddle Collision | This event tells the ball to bounce off the players paddle and plays a sound for the collision |
+| Goal1 Collision | This event tells the ball to reset its position and play the sound for scoring a goal |
+| Goal2 Collision | This event tells the ball to reset its position and play the sound for scoring a goal  |
+| Game Start | This event tells the ball once the game starts where to spawn, then has it randomly choose a direction, and finally tells it how fast to go in that direction |
 
 ### Barrier
 Bounces the ball off of them, this object has no events
 
-
+### MiddleLine
+This is a decorative object and as such it has no code.
