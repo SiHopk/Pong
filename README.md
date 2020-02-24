@@ -7,11 +7,11 @@ Below will be listed each object, as well as a table containing each of its even
 ### Paddle
 This object is the players paddle, its job is just to move up and down only when the player gives the input to do so.
 
-| Event | Description|
+|Event|Description|
 |-------|------------|
-| Key Down - No Key| This event makes the paddle stop moving if there is no user input|
-| Key Down - Up | This event tells the paddle to move upwards when the user presses the up key |
-| Key Down - Down| This event tells the paddle to move downwards when the user presses the down key |
+|Key Down - No Key|This event makes the paddle stop moving if there is no user input|
+|Key Down - Up|This event tells the paddle to move upwards when the user presses the up key|
+|Key Down - Down|This event tells the paddle to move downwards when the user presses the down key|
 
 ### Enemy
 This is the enemy paddle it will simply follow the ball on the y axis.
