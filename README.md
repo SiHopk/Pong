@@ -50,7 +50,7 @@ This is the ball that bounces around the field
 
 | Event | Description |
 |:-------:|:-------:|
-| Key Pressed - Space | This event will reset the ball shoud it get stuck on anything |
+| Key Pressed - Space | This event will allow the player to reset the ball should it get stuck on anything by pressing the spacebar |
 | Barrier Collision | This event tells the ball to bounce off the barriers and plays a sound for the collision |
 | Enemy Collision | This event tells the ball to bounce off enemy paddle and plays a sound for the collision |
 | Paddle Collision | This event tells the ball to bounce off the players paddle and plays a sound for the collision |
