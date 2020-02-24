@@ -8,8 +8,8 @@ Below will be listed each object, as well as a table containing each of its even
 This object is the players paddle, its job is just to move up and down only when the player gives the input to do so.
 
 |Event|Description|
-|-------|------------|
-|Key Down - No Key|This event makes the paddle stop moving if there is no user input|
+|:-------:|:------------:|
+|Key Down - No Key|This event makes the paddle stop moving if there is *no* user input|
 |Key Down - Up|This event tells the paddle to move upwards when the user presses the up key|
 |Key Down - Down|This event tells the paddle to move downwards when the user presses the down key|
 
@@ -17,14 +17,14 @@ This object is the players paddle, its job is just to move up and down only when
 This is the enemy paddle it will simply follow the ball on the y axis.
 
 | Event | Description |
-|-------|-------|
+|:-------:|:-------:|
 | Step | This event says that for evey frame the ball exists, this paddle will follow along the y axis |
 
 ### Goal1
 This object keeps score for the enemy paddle
 
 | Event | Description |
-|-------|-------|
+|:-------:|:-------:|
 | Creation | This event will initialize the enemy score to be 0 |
 | Draw | This event tells the object to draw its own sprite, so that is doesnt dissapear, as well as the enemys score on the board|
 | Ball Collision | This event tells the goal that when the ball collides with the goal it increases the enemy score |
@@ -33,7 +33,7 @@ This object keeps score for the enemy paddle
 This object keeps score for the players paddle
 
 | Event | Description |
-|-------|-------|
+|:-------:|:-------:|
 | Creation | This event will initialize the players score to be 0 |
 | Draw | This event tells the object to draw its own sprite, so that is doesnt dissapear, as well as the players score on the board|
 | Ball Collision | This event tells the goal that when the ball collides with the goal it increases the players score |
@@ -42,14 +42,14 @@ This object keeps score for the players paddle
 This is an invisible object that greets the player once the game is booted up
 
 |Event|Description|
-|-------|-------|
+|:-------:|:-------:|
 |Game Start|This event has the announcer greet and instruct the player on how they can reset the vall should they have any sort of issues with the ball|
 
 ### Ball
 This is the ball that bounces around the field
 
 | Event | Description |
-|-------|-------|
+|:-------:|:-------:|
 | Key Pressed - Space | This event will reset the ball shoud it get stuck on anything |
 | Barrier Collision | This event tells the ball to bounce off the barriers and plays a sound for the collision |
 | Enemy Collision | This event tells the ball to bounce off enemy paddle and plays a sound for the collision |
@@ -62,7 +62,7 @@ This is the ball that bounces around the field
 This is the level the game will be taking place inside of.
 
 |Event|Description|
-|-------|-------|
+|:-------:|:-------:|
 | Creation Code | This event simply tells the room that if the music for the game is not playing, then it should play the music on a loop for the player|
 
 ### Barrier
