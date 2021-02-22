@@ -1,5 +1,5 @@
 # Pong
-A simple Pong game made inside of GameMaker Studio 2. This game was made as a first project for a college class in the span of a few days. This game is made up of 8 objects total, each with its own set of events coded to tell each object how to act once the game ha begun, and the user has started to interact with it. The most important of the eight objects being the player paddle, the enemy, the ball, and the two goals that will keep score for the player and enemy. 
+A simple Pong game made inside of GameMaker Studio 2. This game was made as a first project for a college class in the span of a few days. This game is made up of 8 objects total, each with its own set of events coded to tell each object how to act once the game has begun, and the user has started to interact with it. The most important of the eight objects being the player paddle, the enemy, the ball, and the two goals that will keep score for the player and enemy. 
 
 ## Objects
 Below will be listed each object, as well as a table containing each of its events and a description of what each event does.
